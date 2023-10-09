@@ -1,0 +1,25 @@
+{
+  "name": "long-lat",
+  "version": "1.0.0",
+  "description": "To find the nearest used based on his longitude and latitude",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rampotnuru/Long-Lat.git"
+  },
+  "author": "Ram Potnuru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rampotnuru/Long-Lat/issues"
+  },
+  "homepage": "https://github.com/rampotnuru/Long-Lat#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.0",
+    "mysql": "^2.18.1"
+  }
+}
