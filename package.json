@@ -2,7 +2,7 @@
   "name": "long-lat",
   "version": "1.0.0",
   "description": "To find the nearest user based on their longitude and latitude",
-  "main": "index.js",
+  "main": "mysql.index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
