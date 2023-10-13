@@ -87,6 +87,10 @@ function respond(statusCode, body) {
     body: JSON.stringify(body),
     headers: {
       'Content-Type': 'application/json',
+      // CORS headers to allow requests from any origin
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Headers': 'Content-Type',
+    'Access-Control-Allow-Methods': 'OPTIONS,POST,GET',
     },
   };
 }
